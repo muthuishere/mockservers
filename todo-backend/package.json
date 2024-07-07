@@ -3,7 +3,8 @@
   "type": "module",
   "version": "0.1.0",
   "scripts": {
-    "start-app": "node server.js"
+    "start-app": "node server.js",
+    "test":"ijhttp requests/test-todo-backend.http"
   },
   "main": "server.js",
   "dependencies": { },

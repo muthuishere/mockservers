@@ -1,11 +1,42 @@
 {
   "users": [
-    { "id": 1, "username": "user1", "password": "password1", "profile": { "name": "User One", "email": "user1@example.com" } },
-    { "id": 2, "username": "user2", "password": "password2", "profile": { "name": "User Two", "email": "user2@example.com" } }
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "profile": {
+        "name": "User One",
+        "email": "user1@example.com"
+      }
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2",
+      "profile": {
+        "name": "User Two",
+        "email": "user2@example.com"
+      }
+    }
   ],
   "todos": [
-    { "id": 1, "userId": 1, "title": "Todo 1", "completed": false },
-    { "id": 2, "userId": 1, "title": "Todo 2", "completed": true }
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Todo 1",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Todo 2",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "title": "New Todo",
+      "completed": false,
+      "id": 3
+    }
   ]
 }
-
