@@ -10,7 +10,7 @@
     "start-todo-backend": "npm run start-app -w todo-backend"
   },
   "author": "Muthukumaran Navaneethakrishnan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
     "faker": "^6.6.6",

@@ -9,6 +9,6 @@
   "main": "server.js",
   "dependencies": { },
   "author": "Muthukumaran Navaneethakrishnan",
-  "license": "ISC",
+  "license": "MIT",
   "description": ""
 }
